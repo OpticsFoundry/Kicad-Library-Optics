@@ -1,7 +1,7 @@
-(footprint "Shutter"
-	(version 20240108)
+(footprint "Shutter_BOS710_V0"
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -8 -11.675 0)
@@ -15,24 +15,11 @@
 			)
 		)
 	)
-	(property "Value" "Shutter"
+	(property "Value" "Shutter_BOS710_V0"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "0f3073b8-7a14-4ab2-b677-1966541e8fbd")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "240f09dd-1dd6-4a90-bf09-1f1b0da1c6ae")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "ae47f81d-1033-4dd9-81c4-de46a07e2597")
 	)
@@ -85,7 +72,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "8062cb2c-eef2-40be-82e6-70cd019c2a39")
 	)
@@ -96,7 +83,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "674c4bae-46eb-4fb3-b889-42ae750ea1c7")
 	)
@@ -109,7 +96,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "ac37129b-a9c7-43b0-9efc-c583be2f9b2e")
 	)
@@ -140,7 +127,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "1d647d9a-8395-4f09-a750-2e3ca2808272")
 	)
@@ -151,7 +138,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "2d877c77-7389-401e-aa65-79223f1f4a19")
 	)
@@ -170,16 +157,17 @@
 	(pad "1" smd circle
 		(at -4 0)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "c04dec5a-7a2b-4c93-9d95-bd36d988f50a")
 	)
 	(pad "2" smd circle
 		(at 10 0)
 		(size 0.3 0.3)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "2ec41a50-903c-4844-9e51-3e55710592c6")
 	)
-	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/BOS710Shutter.STEP"
+	(embedded_fonts no)
+	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/BOS710ShutterV0.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -848,554 +848,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AOM_-80MHz689A"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "A"
-			(at 0 4.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-80MHz, 689nm"
-			(at -1.27 -6.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Optics:AOM_-80M_689nm"
-			(at 0.254 -14.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Angle" "0.3764554063"
-			(at -0.762 -9.398 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "AOM_-80MHz689A_1_1"
-			(rectangle
-				(start -12.5 17.8)
-				(end 12.5 -34.3)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy -5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 5.08 -34.29)
-				(end 10.16 -39.37)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 0 0) (xy -6.35 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "Out"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "AOM_-80MHz689B"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "A"
-			(at 0 4.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "-80MHz, 689nm"
-			(at -1.778 -7.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Optics:AOM_-80M_689nm"
-			(at 0 -18.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Angle" "0.3764554063"
-			(at -1.27 -11.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "AOM_-80MHz689B_1_1"
-			(polyline
-				(pts
-					(xy -12.7 0) (xy 0 0) (xy 6.35 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -12.5 17.8)
-				(end 12.5 -34.3)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 5.08 -34.29)
-				(end 10.16 -39.37)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "Out"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "AOM_80MHz689A"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "A"
-			(at 0 4.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Optics:AOM_+80M_689nm"
-			(at 0 -18.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "AOM_80MHz689A_1_1"
-			(rectangle
-				(start -12.5 17.8)
-				(end 12.5 -34.3)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy -5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 5.08 -34.29)
-				(end 10.16 -39.37)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 12.7 0) (xy 0 0) (xy -6.35 1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "Out"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "AOM_80MHz689B"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "A"
-			(at 0 4.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Optics:AOM_+80M_689nm"
-			(at -0.254 -16.256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "AOM_80MHz689B_1_1"
-			(polyline
-				(pts
-					(xy -12.7 0) (xy 0 0) (xy 6.35 1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -12.5 17.8)
-				(end 12.5 -34.3)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0) (xy 5.08 0)
-				)
-				(stroke
-					(width 0)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 5.08 -34.29)
-				(end 10.16 -39.37)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(pin passive line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "In"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 0 180)
-				(length 2.54)
-				(name "Out"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "ApertureLeft"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1618,7 +1070,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Baseplate200x200"
+	(symbol "Baseplate200x200x10"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1638,7 +1090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Optics:Baseplate200x200mm"
+		(property "Footprint" "Optics:Baseplate200x200x10mm"
 			(at -0.254 -5.334 0)
 			(effects
 				(font
@@ -1665,10 +1117,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Baseplate200x200_1_1"
+		(symbol "Baseplate200x200x10_1_1"
 			(rectangle
-				(start -100 100)
-				(end 100 -100)
+				(start 0 0)
+				(end 200 -200)
 				(stroke
 					(width 0)
 					(type default)
@@ -1680,7 +1132,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Baseplate230x230"
+	(symbol "Baseplate230x230x15"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1700,7 +1152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Optics:Baseplate230x230mm"
+		(property "Footprint" "Optics:Baseplate230x230x15mm"
 			(at -0.254 -5.334 0)
 			(effects
 				(font
@@ -1727,10 +1179,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Baseplate230x230_1_1"
+		(symbol "Baseplate230x230x15_1_1"
 			(rectangle
-				(start -115 115)
-				(end 115 -115)
+				(start 0 0)
+				(end 230 -230)
 				(stroke
 					(width 0)
 					(type default)
@@ -1742,7 +1194,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Baseplate280x230"
+	(symbol "Baseplate280x230x15"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1762,7 +1214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Optics:Baseplate280x230mm"
+		(property "Footprint" "Optics:Baseplate280x230x15mm"
 			(at -0.254 -5.334 0)
 			(effects
 				(font
@@ -1789,10 +1241,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Baseplate280x230_1_1"
+		(symbol "Baseplate280x230x15_1_1"
 			(rectangle
-				(start -140 115)
-				(end 140 -115)
+				(start 0 0)
+				(end 280 -230)
 				(stroke
 					(width 0)
 					(type default)
@@ -1804,7 +1256,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Baseplate300x230"
+	(symbol "Baseplate300x230x15"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1824,7 +1276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Optics:Baseplate300x230mm"
+		(property "Footprint" "Optics:Baseplate300x230x15mm"
 			(at -0.254 -5.334 0)
 			(effects
 				(font
@@ -1851,10 +1303,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Baseplate300x230_1_1"
+		(symbol "Baseplate300x230x15_1_1"
 			(rectangle
-				(start -150 115)
-				(end 150 -115)
+				(start 0 0)
+				(end 300 -230)
 				(stroke
 					(width 0)
 					(type default)
@@ -1866,7 +1318,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Baseplate320x230"
+	(symbol "Baseplate320x230x15"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1886,7 +1338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Optics:Baseplate320x230mm"
+		(property "Footprint" "Optics:Baseplate320x230x15mm"
 			(at -0.254 -5.334 0)
 			(effects
 				(font
@@ -1913,10 +1365,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "Baseplate320x230_1_1"
+		(symbol "Baseplate320x230x15_1_1"
 			(rectangle
-				(start -160 115)
-				(end 160 -115)
+				(start 0 0)
+				(end 320 -230)
 				(stroke
 					(width 0)
 					(type default)
@@ -1977,8 +1429,8 @@
 		)
 		(symbol "Baseplate400x230x20_1_1"
 			(rectangle
-				(start -200 115)
-				(end 200 -115)
+				(start 0 0)
+				(end 400 -230)
 				(stroke
 					(width 0)
 					(type default)
@@ -2125,7 +1577,228 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Collimator_S&K_M5"
+	(symbol "Collimator_S&K60FC"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 10.16 9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Input"
+			(at 8.636 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&K60FCCollimator"
+			(at -3.81 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60FC-4-A4.5S-02, 689 nm"
+			(at -1.27 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Collimator_S&K60FC_0_1"
+			(rectangle
+				(start -7.25 2.5)
+				(end -2.25 -2.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Collimator_S&K60FC_1_1"
+			(rectangle
+				(start -17.83 8.89)
+				(end 10.75 -9.11)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -9.017 2.54)
+				(mid -7.9649 0)
+				(end -9.017 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -9.017 -2.54)
+				(mid -10.0691 0)
+				(end -9.017 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 13.25 0 180)
+				(length 2.5)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Collimator_S&K60FC_V0"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 5.842 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Input"
+			(at 3.81 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:S&K60FCCollimatorV0"
+			(at -16.256 -7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "60FC-4-A4.5S-02, 689 nm"
+			(at -14.732 7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Collimator_S&K60FC_V0_1_1"
+			(rectangle
+				(start -21.01 6)
+				(end 6.77 -6)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -6.985 2.54)
+				(mid -5.9329 0)
+				(end -6.985 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -6.985 -2.54)
+				(mid -8.0371 0)
+				(end -6.985 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 9.398 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Collimator_S&KSMF_V1"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2145,7 +1818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Optics:S&KCollimator_V4"
+		(property "Footprint" "Optics:S&KCollimator_V1"
 			(at 11.684 -12.192 0)
 			(effects
 				(font
@@ -2172,7 +1845,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Collimator_S&K_M5_1_1"
+		(symbol "Collimator_S&KSMF_V1_1_1"
 			(polyline
 				(pts
 					(xy -33.02 0) (xy -6.35 0)
@@ -2252,7 +1925,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Collimator_S&K_M5_OLD"
+	(symbol "Collimator_S&KSMF_V4"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2272,7 +1945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Optics:S&KCollimator_V1"
+		(property "Footprint" "Optics:S&KCollimator_V4"
 			(at 11.684 -12.192 0)
 			(effects
 				(font
@@ -2299,7 +1972,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Collimator_S&K_M5_OLD_1_1"
+		(symbol "Collimator_S&KSMF_V4_1_1"
 			(polyline
 				(pts
 					(xy -33.02 0) (xy -6.35 0)
@@ -3040,6 +2713,103 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "EOM-Qubig-TWP10M1-VIS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "E"
+			(at -1.016 17.018 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EOM 10GHz 556nm"
+			(at -0.254 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:EOM_Qubig_TWP10M1-VIS"
+			(at 0.508 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TWP10M1-VIS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "EOM-Qubig-TWP10M1-VIS_1_1"
+			(rectangle
+				(start -37 15)
+				(end 37 -15)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -39.624 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 39.624 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Filter-1Inch"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3139,12 +2909,576 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Lens3mm"
+	(symbol "G&H_AOM_-xMHzA"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "A"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-80MHz, 689nm"
+			(at -1.27 -6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:G&H_AOM_-xMHz"
+			(at 0.254 -14.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Angle" "0.3764554063"
+			(at -0.762 -9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "G&H_AOM_-xMHzA_1_1"
+			(rectangle
+				(start -12.5 17.8)
+				(end 12.5 -34.3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 -34.29)
+				(end 10.16 -39.37)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 0 0) (xy -6.35 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "G&H_AOM_-xMHzB"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "A"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-80MHz, 689nm"
+			(at -1.778 -7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:G&H_AOM_-xMHz"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Angle" "0.3764554063"
+			(at -1.27 -11.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "G&H_AOM_-xMHzB_1_1"
+			(polyline
+				(pts
+					(xy -12.7 0) (xy 0 0) (xy 6.35 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -12.5 17.8)
+				(end 12.5 -34.3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 -34.29)
+				(end 10.16 -39.37)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "G&H_AOM_xMHzA"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "A"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80MHz, 689nm"
+			(at -0.508 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:G&H_AOM_+xMHz"
+			(at 0 -18.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -1.016 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Angle" "0.3764554063"
+			(at -0.254 -9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "G&H_AOM_xMHzA_1_1"
+			(rectangle
+				(start -12.5 17.8)
+				(end 12.5 -34.3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 -34.29)
+				(end 10.16 -39.37)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 0) (xy 0 0) (xy -6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "G&H_AOM_xMHzB"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "A"
+			(at 0 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "80MHz, 689nm"
+			(at -0.508 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:G&H_AOM_+xMHz"
+			(at -0.254 -16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Angle" "0.3764554063"
+			(at -1.016 -8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "G&H_AOM_xMHzB_1_1"
+			(polyline
+				(pts
+					(xy -12.7 0) (xy 0 0) (xy 6.35 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -12.5 17.8)
+				(end 12.5 -34.3)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type dot)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 -34.29)
+				(end 10.16 -39.37)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -15.24 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Lens3mm, Neg"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 7.62 3.81 0)
+			(at 4.572 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3486,7 @@
 			)
 		)
 		(property "Value" "Lens 3mm"
-			(at 6.35 1.27 0)
+			(at 7.874 -2.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,19 +3512,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "f=-x mm, LC1120-A"
+			(at -7.874 1.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(symbol "Lens3mm_1_1"
-			(rectangle
-				(start -6.35 3)
-				(end 6.35 0)
+		(symbol "Lens3mm, Neg_0_1"
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -6.35 3.048) (xy 6.35 3.048) (xy 6.35 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3199,10 +3533,12 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "Lens3mm, Neg_1_1"
 			(arc
-				(start 6.35 0)
-				(mid 0 -1.8125)
-				(end -6.35 0)
+				(start -6.35 0)
+				(mid 0 1.7833)
+				(end 6.35 0)
 				(stroke
 					(width 0)
 					(type default)
@@ -3212,7 +3548,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 6.35 270)
+				(at 0 5.588 270)
 				(length 2.54)
 				(name "In"
 					(effects
@@ -3230,7 +3566,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
+				(at 0 -0.762 90)
 				(length 2.54)
 				(name "In"
 					(effects
@@ -3250,20 +3586,20 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Lens6mm"
+	(symbol "Lens3mm, Pos"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 7.62 3.81 0)
+			(at 4.572 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Lens 6mm"
-			(at 6.35 1.27 0)
+		(property "Value" "Lens 3mm"
+			(at 7.874 -2.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +3607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Optics:Lens6mmNormal"
+		(property "Footprint" "Optics:Lens3mmNormal"
 			(at 10.414 -6.858 0)
 			(effects
 				(font
@@ -3289,19 +3625,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 0)
+		(property "Description" "f=x mm, LA1213-A"
+			(at -7.874 1.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(symbol "Lens6mm_1_1"
-			(rectangle
-				(start -6.35 6)
-				(end 6.35 0)
+		(symbol "Lens3mm, Pos_0_1"
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -6.35 3.048) (xy 6.35 3.048) (xy 6.35 0)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -3310,9 +3646,11 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "Lens3mm, Pos_1_1"
 			(arc
 				(start 6.35 0)
-				(mid 0 -1.8125)
+				(mid 0 -1.7833)
 				(end -6.35 0)
 				(stroke
 					(width 0)
@@ -3323,7 +3661,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 8.89 270)
+				(at 0 5.588 270)
 				(length 2.54)
 				(name "In"
 					(effects
@@ -3341,7 +3679,233 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
+				(at 0 -4.318 90)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Lens6mm, Neg"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 4.826 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Lens 6mm"
+			(at 7.62 -1.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:Lens6mmNormal"
+			(at 11.684 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "f=-x mm, LC1120-A"
+			(at -7.874 2.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Lens6mm, Neg_0_1"
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -6.35 6.096) (xy 6.35 6.096) (xy 6.35 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Lens6mm, Neg_1_1"
+			(arc
+				(start -6.35 0.0046)
+				(mid 0 1.7876)
+				(end 6.35 0.0046)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 8.636 270)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -0.762 90)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Lens6mm, Pos"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 4.826 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Lens 6mm"
+			(at 7.62 -1.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Optics:Lens6mmNormal"
+			(at 11.684 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "f=x mm, LA1213-A"
+			(at -7.874 2.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Lens6mm, Pos_0_1"
+			(polyline
+				(pts
+					(xy -6.35 0) (xy -6.35 6.096) (xy 6.35 6.096) (xy 6.35 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Lens6mm, Pos_1_1"
+			(arc
+				(start 6.35 0)
+				(mid 0 -1.7833)
+				(end -6.35 0)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 8.636 270)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -4.318 90)
 				(length 2.54)
 				(name "In"
 					(effects
@@ -5216,7 +5780,140 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Shutter-BOS7-10"
+	(symbol "Shutter-BOS710"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "S"
+			(at -10.668 7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Shutter BOS7/10"
+			(at -1.016 9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:Shutter_BOS710"
+			(at -6.35 -9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Shutter-BOS710_0_1"
+			(rectangle
+				(start 5 -7.8)
+				(end 6 -17.05)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "Shutter-BOS710_1_1"
+			(rectangle
+				(start -9 7.8)
+				(end 8.4 -7.8)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 1 7.75)
+				(end 5 -7.8)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start 6 7.874)
+				(end 8.4 -7.676)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -11.684 0 0)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.922 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Shutter-BOS710_V0"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -5263,7 +5960,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Shutter-BOS7-10_0_1"
+		(symbol "Shutter-BOS710_V0_0_1"
 			(rectangle
 				(start 1.27 -8.5)
 				(end -7.5 -19)
@@ -5276,7 +5973,7 @@
 				)
 			)
 		)
-		(symbol "Shutter-BOS7-10_1_1"
+		(symbol "Shutter-BOS710_V0_1_1"
 			(rectangle
 				(start -12 8.5)
 				(end 1.27 -8.5)
@@ -5500,7 +6197,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "WPR"
-			(at -0.508 13.97 0)
+			(at -6.858 7.366 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5508,7 +6205,7 @@
 			)
 		)
 		(property "Value" "Q/HWPR"
-			(at -0.508 11.43 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5516,7 +6213,7 @@
 			)
 		)
 		(property "Footprint" "Optics:WaveplateRotateable"
-			(at 0 -6.35 0)
+			(at 0.508 -12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5534,7 +6231,7 @@
 			)
 		)
 		(property "Description" "WaveplateRotateable"
-			(at 0 0 0)
+			(at -0.508 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,9 +6241,9 @@
 		)
 		(symbol "WaveplateRotateable_0_1"
 			(arc
-				(start -2.54 3.81)
-				(mid 0 4.8621)
-				(end 2.54 3.81)
+				(start -1.778 3.81)
+				(mid 0.762 4.8621)
+				(end 3.302 3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -5556,21 +6253,9 @@
 				)
 			)
 			(arc
-				(start 2.54 -3.81)
-				(mid 0 -4.8621)
-				(end -2.54 -3.81)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 0) (xy 5.08 0)
-				)
+				(start 3.302 -3.81)
+				(mid 0.762 -4.8621)
+				(end -1.778 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -5582,26 +6267,14 @@
 		)
 		(symbol "WaveplateRotateable_1_1"
 			(rectangle
-				(start -5.5 10)
-				(end 5.5 -10)
+				(start -4.9 10)
+				(end 6.2 -10)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
 					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 0) (xy -2.54 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 			(pin passive line
@@ -5623,7 +6296,105 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at 8.89 0 180)
+				(length 2.54)
+				(name "Out"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Wedge_Prism"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "WPr"
+			(at -5.842 7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Wedge Prism"
+			(at -8.636 -0.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Optics:Wedge_Prism_12.7mm"
+			(at 11.176 -3.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0.254 7.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Wedge_Prism_1_1"
+			(rectangle
+				(start -7.45 7)
+				(end 7.45 -8)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 9.652 270)
+				(length 2.54)
+				(name "In"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -10.668 90)
 				(length 2.54)
 				(name "Out"
 					(effects

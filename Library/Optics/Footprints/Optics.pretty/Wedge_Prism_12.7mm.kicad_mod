@@ -1,10 +1,10 @@
-(footprint "WaveplateRotateable"
+(footprint "Wedge_Prism_12.7mm"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 9.3 8.5 270)
+	(property "Reference" "WPr"
+		(at 10.75 -4.25 270)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4a09bc59-05d6-4e21-930e-f19be24bc715")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "WaveplateRotateable"
-		(at 1.1 0.1 90)
+	(property "Value" "Wedge_Prism_12.7mm"
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "71d61d35-f88d-4cf3-b255-2039bab87337")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0.1 0.1 90)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0.1 0.1 90)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -4.9 -9.9)
-		(end 6.2 9.9)
+		(start -7.45 -7)
+		(end 7.45 8)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -66,8 +66,8 @@
 		(uuid "6187194e-d570-42c8-a21a-abf26e026142")
 	)
 	(fp_circle
-		(center 0.1 0.1)
-		(end 0.1 -0.3)
+		(center 0 0)
+		(end 0.4 0)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -78,7 +78,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 10 -6.8) (xy 8.4 -6.8) (xy 8.4 -7.5) (xy 7.3 -6.6) (xy 8.4 -5.7) (xy 8.4 -6.4) (xy 10 -6.4)
+			(xy -4.35 12.1) (xy -4.35 10.5) (xy -3.65 10.5) (xy -4.55 9.4) (xy -5.45 10.5) (xy -4.75 10.5) (xy -4.75 12.1)
 		)
 		(stroke
 			(width 0.1)
@@ -89,8 +89,8 @@
 		(uuid "ede15f5c-b53a-4d38-b3fd-9db7c60c7064")
 	)
 	(fp_rect
-		(start -5.95 -10.85)
-		(end 7.15 10.85)
+		(start -8.45 -8)
+		(end 8.45 9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -120,8 +120,8 @@
 		(uuid "1fb82dab-c4e7-463f-ba1b-f5487eea0488")
 	)
 	(fp_rect
-		(start -3 -12.95)
-		(end 3 -9.95)
+		(start -3 -12.7)
+		(end 3 -9.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -131,8 +131,8 @@
 		(uuid "26986db1-0cb8-4806-819c-7df1bd21607b")
 	)
 	(fp_rect
-		(start -3 12.95)
-		(end 3 9.95)
+		(start -3 12.7)
+		(end 3 9.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -142,7 +142,7 @@
 		(uuid "45131282-2097-49ee-9a6b-da6fe17148fa")
 	)
 	(fp_text user "insert"
-		(at 8.7 -11.4 270)
+		(at -9.5 12 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7982f7ee-8fe5-4f35-8d02-21fec6e68878")
@@ -155,7 +155,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.6 0.1 90)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8d5c393c-dffb-47fd-8235-a188e9c5db12")
@@ -167,21 +167,21 @@
 		)
 	)
 	(pad "1" smd circle
-		(at -4.9 0 90)
+		(at 0 -7)
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5e692c35-0c1d-4c23-9680-4b4fc9d9e390")
 	)
 	(pad "2" smd circle
-		(at 6.2 0 90)
+		(at 0 8)
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "900262a2-8317-4db3-ae7f-22a6fdf05ef4")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/RotatableWaveplate.STEP"
+	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/WedgePrism12.7mmAssembly.STEP"
 		(offset
-			(xyz 0.64 0 0)
+			(xyz 0 4 0)
 		)
 		(scale
 			(xyz 1 1 1)

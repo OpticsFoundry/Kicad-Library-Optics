@@ -1,13 +1,13 @@
-(footprint "S&KCollimator_V1"
+(footprint "EOM_Qubig_TWP10M1-VIS"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "C1"
-		(at 11.8 -15 90)
+	(property "Reference" "REF**"
+		(at -12.2 19 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "29a98f91-28f8-4652-a598-2de8636c01a1")
+		(uuid "6c13dafc-47ca-4e29-861d-83ac713f6677")
 		(effects
 			(font
 				(size 3 3)
@@ -15,24 +15,24 @@
 			)
 		)
 	)
-	(property "Value" "Input, 60SMS-1-4-A4.5S-02"
-		(at -8.5 0 270)
+	(property "Value" "EOM_Qubig_TWP10M1-VIS"
+		(at -9.7 -19.2 0)
 		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "2cfa025a-0e19-47bb-8437-d3d2df5cdefa")
+		(layer "F.SilkS")
+		(uuid "c79c031f-c9ff-4c49-9879-bb6ecaf918d0")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 3 3)
+				(thickness 0.3)
 			)
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 90)
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c29cb11f-edab-4a4c-b36b-41d2148dc87a")
+		(uuid "b791ba84-172e-4d18-9168-d5e6bc68226d")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 90)
+	(property "Description" "TWP10M1-VIS"
+		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9475b69-d6e4-4fcf-9091-b1e7d42832c3")
+		(uuid "e6452c61-f717-499d-9863-d71e5ea926cf")
 		(effects
 			(font
 				(size 1 1)
@@ -55,26 +55,15 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -33 14)
-		(end -4.5 -14)
+		(start 37 15)
+		(end -37 -15)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a45d64e7-d123-46d0-9391-187c8f7f880e")
-	)
-	(fp_rect
-		(start -4.5 10)
-		(end 12.5 -10)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "c750e693-9246-4280-b9e8-b8c6b8a97429")
+		(uuid "4a5e19b0-7dc6-461c-8583-709c9b284ea6")
 	)
 	(fp_circle
 		(center 0 0)
@@ -85,30 +74,38 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "42b05112-de85-48f0-bde2-4ff1be7cc005")
+		(uuid "6d8c0200-af98-4a0b-ba87-a5f8c9ebc29a")
 	)
-	(fp_poly
-		(pts
-			(xy -3.2 11.2) (xy 13.6 11.2) (xy 13.6 -11.2) (xy -3.2 -11.2) (xy -3.2 -15.4) (xy -34.4 -15.4) (xy -34.4 15.2)
-			(xy -3.2 15.2)
-		)
+	(fp_rect
+		(start -38 -16)
+		(end 38 16)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d2b0170f-d440-44eb-ba6a-bc1a4be0ad3a")
+		(uuid "25576f44-71fd-4613-9027-5eb5df3d3dc2")
 	)
 	(fp_line
 		(start 0 0)
-		(end 50 0)
+		(end -70 0)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "3c6a78ea-4b24-4ce1-8345-0222efa10815")
+		(uuid "3530afe3-415f-44b7-8dbb-6c279e92f1ad")
+	)
+	(fp_line
+		(start 0 0)
+		(end 70 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b5f9dba4-ae42-4c7c-838e-71d06587833c")
 	)
 	(fp_rect
 		(start -3 -20.2)
@@ -119,7 +116,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "ab89340e-9caf-4fd6-a220-98da2a7fe0c5")
+		(uuid "5acfe97b-5a49-4551-8612-d49da4a9015e")
 	)
 	(fp_rect
 		(start -3 17.2)
@@ -130,13 +127,13 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "e91be740-a2e1-44eb-8b8e-316c6d786d9e")
+		(uuid "7ff51b14-e36a-44ac-882e-ee8d5974e423")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.5 0 270)
+		(at 0 -2.5 180)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "62f26735-333e-4658-bbef-439cbaa3f117")
+		(uuid "8bdb8de5-b2f2-4e30-8d4d-2bc0e3412ef1")
 		(effects
 			(font
 				(size 1 1)
@@ -145,13 +142,19 @@
 		)
 	)
 	(pad "1" smd circle
-		(at 0 0 270)
+		(at 22.5 0 180)
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bf1180dc-a3aa-4c65-8cbc-2c09c8d4450b")
+		(uuid "4b9dca14-5946-424c-8419-6a4e9196de07")
+	)
+	(pad "2" smd circle
+		(at -22.5 0 180)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "64a6010e-1551-406f-8d73-bf101bb35c73")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/S&K60FCSMS_OLD.STEP"
+	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/EOM_Qubig_TWP10M1-VIS.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -159,7 +162,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz -90 0 0)
 		)
 	)
 )

@@ -1,13 +1,13 @@
-(footprint "S&KCollimator_V1"
+(footprint "S&K60FCCollimatorWedge"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "C1"
-		(at 11.8 -15 90)
+	(property "Reference" "CW"
+		(at -17.25 -12 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "29a98f91-28f8-4652-a598-2de8636c01a1")
+		(uuid "fe93a6bb-0735-43ea-9bab-360729cd11a0")
 		(effects
 			(font
 				(size 3 3)
@@ -15,15 +15,15 @@
 			)
 		)
 	)
-	(property "Value" "Input, 60SMS-1-4-A4.5S-02"
-		(at -8.5 0 270)
+	(property "Value" "Input"
+		(at -13 12.25 0)
 		(unlocked yes)
-		(layer "F.Fab")
-		(uuid "2cfa025a-0e19-47bb-8437-d3d2df5cdefa")
+		(layer "F.SilkS")
+		(uuid "13fba7bc-b85f-48ab-afd5-608f293f8507")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 3 3)
+				(thickness 0.3)
 			)
 		)
 	)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c29cb11f-edab-4a4c-b36b-41d2148dc87a")
+		(uuid "2fd7e5be-20d7-4e57-b6c1-07710e76016e")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "60FC-4-A4.5S-02, 689 nm"
 		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9475b69-d6e4-4fcf-9091-b1e7d42832c3")
+		(uuid "f03d3b70-0469-43ec-8fa6-241940435b74")
 		(effects
 			(font
 				(size 1 1)
@@ -55,88 +55,86 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -33 14)
-		(end -4.5 -14)
+		(start -7.95 -2.5)
+		(end -2.95 2.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "a45d64e7-d123-46d0-9391-187c8f7f880e")
+		(uuid "1288e680-56c6-4314-ad6b-6f8c2aae7881")
 	)
 	(fp_rect
-		(start -4.5 10)
-		(end 12.5 -10)
+		(start 30.2 -7.5)
+		(end -17.83 7.5)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "c750e693-9246-4280-b9e8-b8c6b8a97429")
+		(uuid "61cc5887-1b76-4242-b19b-551ebc95e2b9")
 	)
 	(fp_circle
-		(center 0 0)
-		(end 0.4 0)
+		(center 1.67 0)
+		(end 2.07 0)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "42b05112-de85-48f0-bde2-4ff1be7cc005")
+		(uuid "a31b099b-68c3-421c-8f27-dd307ae9fc05")
 	)
-	(fp_poly
-		(pts
-			(xy -3.2 11.2) (xy 13.6 11.2) (xy 13.6 -11.2) (xy -3.2 -11.2) (xy -3.2 -15.4) (xy -34.4 -15.4) (xy -34.4 15.2)
-			(xy -3.2 15.2)
-		)
+	(fp_rect
+		(start -18.78 -8.5)
+		(end 31.2 8.5)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d2b0170f-d440-44eb-ba6a-bc1a4be0ad3a")
+		(uuid "05df52d1-11c2-4973-998c-ca1106edf7cd")
 	)
 	(fp_line
-		(start 0 0)
+		(start 1.67 0)
 		(end 50 0)
 		(stroke
 			(width 0.2)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "3c6a78ea-4b24-4ce1-8345-0222efa10815")
+		(uuid "4385f50f-ba16-4149-a8ec-e0423292961f")
 	)
 	(fp_rect
-		(start -3 -20.2)
-		(end 3 -17.2)
+		(start -1.33 -16.75)
+		(end 4.67 -19.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "ab89340e-9caf-4fd6-a220-98da2a7fe0c5")
+		(uuid "2ad2e4f4-d856-488a-9e35-1c6182248a4c")
 	)
 	(fp_rect
-		(start -3 17.2)
-		(end 3 20.2)
+		(start -1.33 16.75)
+		(end 4.67 19.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "e91be740-a2e1-44eb-8b8e-316c6d786d9e")
+		(uuid "678db1bc-1bb8-43a0-9351-3fc18d897797")
 	)
 	(fp_text user "${REFERENCE}"
-		(at -2.5 0 270)
+		(at 2.5 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "62f26735-333e-4658-bbef-439cbaa3f117")
+		(uuid "71ca74df-3cba-4dca-bd99-e8144ac98a96")
 		(effects
 			(font
 				(size 1 1)
@@ -145,13 +143,13 @@
 		)
 	)
 	(pad "1" smd circle
-		(at 0 0 270)
+		(at 1.67 0 90)
 		(size 0.3 0.3)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bf1180dc-a3aa-4c65-8cbc-2c09c8d4450b")
+		(uuid "ae840635-02c3-44ea-8ea6-8b6e4b79f25e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/S&K60FCSMS_OLD.STEP"
+	(model "${KICAD_FIREFLY_OPTICS}/Footprints/3DModels/S&KWedgeHolderV3Assembly.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -159,7 +157,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz -90 -0 -0)
 		)
 	)
 )
